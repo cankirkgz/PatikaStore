@@ -40,10 +40,6 @@ public abstract class Devices<T> implements IProduct{
         return brand.getBrandName();
     }
 
-    @Override
-    public void setBrand(String name) {
-
-    }
 
     public double getUnitPrice() {
         return unitPrice;
@@ -51,16 +47,6 @@ public abstract class Devices<T> implements IProduct{
 
     public void setUnitPrice(double unitPrice) {
         this.unitPrice = unitPrice;
-    }
-
-    @Override
-    public double getDiscount() {
-        return 0;
-    }
-
-    @Override
-    public void setDiscount(double discount) {
-
     }
 
     public double getDiscountRate() {
